@@ -1,0 +1,23 @@
+SELECT default_character_set_name FROM information_schema.SCHEMATA S WHERE schema_name = 'quiz_db';
+
+ALTER DATABASE quiz_db CHARACTER SET utf8 COLLATE utf8_general_ci;
+
+ALTER TABLE T_OPTIONS_FOR_PASSAGE CONVERT TO CHARACTER SET utf8 COLLATE utf8_general_ci;
+ALTER TABLE T_OPTIONS_FOR_SECTION CONVERT TO CHARACTER SET utf8 COLLATE utf8_general_ci;
+ALTER TABLE T_PASSAGE CONVERT TO CHARACTER SET utf8 COLLATE utf8_general_ci;
+ALTER TABLE T_PASSAGE_QUESTION CONVERT TO CHARACTER SET utf8 COLLATE utf8_general_ci;
+ALTER TABLE T_POSSIBLE_ANSWER CONVERT TO CHARACTER SET utf8 COLLATE utf8_general_ci;
+ALTER TABLE T_QUESTION CONVERT TO CHARACTER SET utf8 COLLATE utf8_general_ci;
+ALTER TABLE T_USER CONVERT TO CHARACTER SET utf8 COLLATE utf8_general_ci;
+ALTER TABLE T_ANSWER CONVERT TO CHARACTER SET utf8 COLLATE utf8_general_ci;
+ALTER TABLE T_CATEGORY CONVERT TO CHARACTER SET utf8 COLLATE utf8_general_ci;
+ALTER TABLE T_EXAM CONVERT TO CHARACTER SET utf8 COLLATE utf8_general_ci;
+ALTER TABLE T_SECTION CONVERT TO CHARACTER SET utf8 COLLATE utf8_general_ci;
+
+show variables WHERE variable_name like "col%";
+
+T_EXAM update column questions = TEXT instead of JSON. --> If JSON, utf-8 is unable to be viewable
+
+alter table T_EXAM
+	add token boolean default false null;
+

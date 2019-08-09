@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<report>
+    <item>
+        <question>
+            <answer>is</answer>
+            <categoryIds>lop6</categoryIds>
+            <id>9</id>
+            <level>ELEMENTARY_A2</level>
+            <sectionId>7</sectionId>
+            <sectionName>Complete the sentences with am, is or are.</sectionName>
+            <text>A: Can I talk to Minh?&lt;br/&gt;: She isn’t at home. She ________ reading books in the library</text>
+            <type>TEXT</type>
+        </question>
+        <question>
+            <answer>are</answer>
+            <categoryIds>lop6</categoryIds>
+            <id>14</id>
+            <level>ELEMENTARY_A2</level>
+            <sectionId>7</sectionId>
+            <sectionName>Complete the sentences with am, is or are.</sectionName>
+            <text>A: Where are Peter and Tom?#NL#B: They ________ shopping.</text>
+            <type>TEXT</type>
+        </question>
+        <question>
+            <answer>is</answer>
+            <categoryIds>lop6</categoryIds>
+            <id>15</id>
+            <level>ELEMENTARY_A2</level>
+            <sectionId>7</sectionId>
+            <sectionName>Complete the sentences with am, is or are.</sectionName>
+            <text>A: Where is Phuong?#NL#B: She ________ playing chess in the living room now</text>
+            <type>TEXT</type>
+        </question>
+        <question>
+            <answer>am</answer>
+            <categoryIds>lop6</categoryIds>
+            <id>16</id>
+            <level>ELEMENTARY_A2</level>
+            <sectionId>7</sectionId>
+            <sectionName>Complete the sentences with am, is or are.</sectionName>
+            <text>A: Are you OK?#NL#B: Yes, I ________ having great fun with my friends.</text>
+            <type>TEXT</type>
+        </question>
+        <question>
+            <answer>am</answer>
+            <categoryIds>lop6</categoryIds>
+            <id>17</id>
+            <level>ELEMENTARY_A2</level>
+            <sectionId>7</sectionId>
+            <sectionName>Complete the sentences with am, is or are.</sectionName>
+            <text>A: Please help me with these boxes.#NL#B: Sorry. I ________ going to school.</text>
+            <type>TEXT</type>
+        </question>
+        <sectionId>7</sectionId>
+        <sectionName>Complete the sentences with am, is or are.</sectionName>
+    </item>
+    <item>
+        <question>
+            <answer>am reading</answer>
+            <categoryIds>lop6</categoryIds>
+            <id>18</id>
+            <level>ELEMENTARY_A2</level>
+            <options>listen</options>
+            <options>have</options>
+            <options>speak</options>
+            <options>read</options>
+            <options>play</options>
+            <options>not watch</options>
+            <sectionId>8</sectionId>
+            <sectionName>Complete the following sentences with the verbs in the Present continuous.</sectionName>
+            <text>Please be quiet! I ________________________ my book.</text>
+            <type>OPTION_FROM_GIVEN</type>
+        </question>
+        <question>
+            <answer>aren’t watching</answer>
+            <categoryIds>lop6</categoryIds>
+            <id>19</id>
+            <level>ELEMENTARY_A2</level>
+            <options>listen</options>
+            <options>have</options>
+            <options>speak</options>
+            <options>read</options>
+            <options>play</options>
+            <options>not watch</options>
+            <sectionId>8</sectionId>
+            <sectionName>Complete the following sentences with the verbs in the Present continuous.</sectionName>
+            <text>Susan and Alice ________________________ a DVD. They are playing computer games.</text>
+            <type>OPTION_FROM_GIVEN</type>
+        </question>
+        <question>
+            <answer>Is Mary having</answer>
+            <categoryIds>lop6</categoryIds>
+            <id>20</id>
+            <level>ELEMENTARY_A2</level>
+            <options>listen</options>
+            <options>have</options>
+            <options>speak</options>
+            <options>read</options>
+            <options>play</options>
+            <options>not watch</options>
+            <sectionId>8</sectionId>
+            <sectionName>Complete the following sentences with the verbs in the Present continuous.</sectionName>
+            <text>___________________ Mary __________________ breakfast? It’s time to go to school</text>
+            <type>OPTION_FROM_GIVEN</type>
+        </question>
+        <question>
+            <answer>are you listening</answer>
+            <categoryIds>lop6</categoryIds>
+            <id>21</id>
+            <level>ELEMENTARY_A2</level>
+            <options>listen</options>
+            <options>have</options>
+            <options>speak</options>
+            <options>read</options>
+            <options>play</options>
+            <options>not watch</options>
+            <sectionId>8</sectionId>
+            <sectionName>Complete the following sentences with the verbs in the Present continuous.</sectionName>
+            <text>Which CD __________________ you __________________ to?</text>
+            <type>OPTION_FROM_GIVEN</type>
+        </question>
+        <question>
+            <answer>is Nga speaking</answer>
+            <categoryIds>lop6</categoryIds>
+            <id>22</id>
+            <level>ELEMENTARY_A2</level>
+            <options>listen</options>
+            <options>have</options>
+            <options>speak</options>
+            <options>read</options>
+            <options>play</options>
+            <options>not watch</options>
+            <sectionId>8</sectionId>
+            <sectionName>Complete the following sentences with the verbs in the Present continuous.</sectionName>
+            <text>What __________________ Nga __________________ ?</text>
+            <type>OPTION_FROM_GIVEN</type>
+        </question>
+        <question>
+            <answer>is playing</answer>
+            <categoryIds>lop6</categoryIds>
+            <id>23</id>
+            <level>ELEMENTARY_A2</level>
+            <options>listen</options>
+            <options>have</options>
+            <options>speak</options>
+            <options>read</options>
+            <options>play</options>
+            <options>not watch</options>
+            <sectionId>8</sectionId>
+            <sectionName>Complete the following sentences with the verbs in the Present continuous.</sectionName>
+            <text>Right now John _______________________ table tennis with the school team</text>
+            <type>OPTION_FROM_GIVEN</type>
+        </question>
+        <sectionId>8</sectionId>
+        <sectionName>Complete the following sentences with the verbs in the Present continuous.</sectionName>
+    </item>
+    <item>
+        <question>
+            <answer>visit</answer>
+            <categoryIds>lop6</categoryIds>
+            <id>36</id>
+            <level>ELEMENTARY_A2</level>
+            <sectionId>10</sectionId>
+            <sectionName>Complete the sentences with the Present simple or the Present continuous form of
+                the verbs
+            </sectionName>
+            <text>They often (visit) ___________________ their parents in the holidays.</text>
+            <type>TEXT</type>
+        </question>
+        <question>
+            <answer>are speaking</answer>
+            <categoryIds>lop6</categoryIds>
+            <id>37</id>
+            <level>ELEMENTARY_A2</level>
+            <sectionId>10</sectionId>
+            <sectionName>Complete the sentences with the Present simple or the Present continuous form of
+                the verbs
+            </sectionName>
+            <text>We (speak) ___________________ French at the moment</text>
+            <type>TEXT</type>
+        </question>
+        <question>
+            <answer>watch</answer>
+            <categoryIds>lop6</categoryIds>
+            <id>38</id>
+            <level>ELEMENTARY_A2</level>
+            <sectionId>10</sectionId>
+            <sectionName>Complete the sentences with the Present simple or the Present continuous form of
+                the verbs
+            </sectionName>
+            <text>I (watch) ___________________ TV about 3 hours a day</text>
+            <type>TEXT</type>
+        </question>
+        <question>
+            <answer>goes</answer>
+            <categoryIds>lop6</categoryIds>
+            <id>39</id>
+            <level>ELEMENTARY_A2</level>
+            <sectionId>10</sectionId>
+            <sectionName>Complete the sentences with the Present simple or the Present continuous form of
+                the verbs
+            </sectionName>
+            <text>My family usually (go) ___________________ to the movies on Sunday</text>
+            <type>TEXT</type>
+        </question>
+        <question>
+            <answer>is riding</answer>
+            <categoryIds>lop6</categoryIds>
+            <id>40</id>
+            <level>ELEMENTARY_A2</level>
+            <sectionId>10</sectionId>
+            <sectionName>Complete the sentences with the Present simple or the Present continuous form of
+                the verbs
+            </sectionName>
+            <text>Look at the girl! She (ride) ___________________ a horse</text>
+            <type>TEXT</type>
+        </question>
+        <question>
+            <answer>are playing</answer>
+            <categoryIds>lop6</categoryIds>
+            <id>41</id>
+            <level>ELEMENTARY_A2</level>
+            <sectionId>10</sectionId>
+            <sectionName>Complete the sentences with the Present simple or the Present continuous form of
+                the verbs
+            </sectionName>
+            <text>We (play) ___________________ tennis now</text>
+            <type>TEXT</type>
+        </question>
+        <question>
+            <answer>practices</answer>
+            <categoryIds>lop6</categoryIds>
+            <id>42</id>
+            <level>ELEMENTARY_A2</level>
+            <sectionId>10</sectionId>
+            <sectionName>Complete the sentences with the Present simple or the Present continuous form of
+                the verbs
+            </sectionName>
+            <text>Minh sometimes (practice) ___________________ the guitar in his room.</text>
+            <type>TEXT</type>
+        </question>
+        <question>
+            <answer>Do you like</answer>
+            <categoryIds>lop6</categoryIds>
+            <id>43</id>
+            <level>ELEMENTARY_A2</level>
+            <sectionId>10</sectionId>
+            <sectionName>Complete the sentences with the Present simple or the Present continuous form of
+                the verbs
+            </sectionName>
+            <text>___________________ you (like) ___________________ chocolate ice cream?</text>
+            <type>TEXT</type>
+        </question>
+        <question>
+            <answer>like</answer>
+            <categoryIds>lop6</categoryIds>
+            <id>44</id>
+            <level>ELEMENTARY_A2</level>
+            <sectionId>10</sectionId>
+            <sectionName>Complete the sentences with the Present simple or the Present continuous form of
+                the verbs
+            </sectionName>
+            <text>I really (like) ___________________ cooking</text>
+            <type>TEXT</type>
+        </question>
+        <question>
+            <answer>is taking</answer>
+            <categoryIds>lop6</categoryIds>
+            <id>45</id>
+            <level>ELEMENTARY_A2</level>
+            <sectionId>10</sectionId>
+            <sectionName>Complete the sentences with the Present simple or the Present continuous form of
+                the verbs
+            </sectionName>
+            <text>Hung can’t answer the phone because he (take) ___________________ a shower.</text>
+            <type>TEXT</type>
+        </question>
+        <sectionId>10</sectionId>
+        <sectionName>Complete the sentences with the Present simple or the Present continuous form of
+            the verbs
+        </sectionName>
+    </item>
+</report>

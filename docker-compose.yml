@@ -1,0 +1,9 @@
+version: '2'
+services:
+  quiz-api:
+    hostname: quiz-api.local
+    ports:
+      - 8080:8080
+    build: .
+    environment:
+      ENV: old

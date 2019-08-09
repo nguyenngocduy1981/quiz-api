@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <appender name="STDOUT_JSON" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder class="net.logstash.logback.encoder.LoggingEventCompositeJsonEncoder">
+            <providers>
+                <timestamp/>
+                <mdc/> <!-- MDC variables on the Thread will be written as JSON fields-->
+                <context/> <!--Outputs entries from logback's context -->
+                <logLevel/>
+                <loggerName/>
+                <pattern/>
+                <threadName/>
+                <message/>
+
+                <arguments/> <!--or through StructuredArguments-->
+
+                <stackTrace>
+                    <fieldName>stackTrace</fieldName>
+                    <throwableConverter class="net.logstash.logback.stacktrace.ShortenedThrowableConverter">
+                        <!--<exclude>net\.sf\.cglib\..*</exclude>-->
+                        <maxDepthPerThrowable>30</maxDepthPerThrowable>
+                        <rootCauseFirst>true</rootCauseFirst>
+                    </throwableConverter>
+                </stackTrace>
+            </providers>
+        </encoder>
+    </appender>
+
+    <appender name="STDOUT"
+              class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <charset>UTF-8</charset>
+            <Pattern>%d %-4relative [%thread] %-5level %logger{35} - %msg%n
+            </Pattern>
+        </encoder>
+    </appender>
+
+    <logger name="net.quiz" level="DEBUG">
+        <appender-ref ref="STDOUT"/>
+    </logger>
+    <root level="INFO">
+        <appender-ref ref="STDOUT"/>
+    </root>
+
+    <!--<springProfile name="local">-->
+    <!--<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">-->
+    <!--<encoder class="net.logstash.logback.encoder.LoggingEventCompositeJsonEncoder">-->
+    <!--<providers>-->
+    <!--<timestamp/>-->
+    <!--<mdc/> &lt;!&ndash; MDC variables on the Thread will be written as JSON fields&ndash;&gt;-->
+    <!--<context/> &lt;!&ndash;Outputs entries from logback's context &ndash;&gt;-->
+    <!--<logLevel/>-->
+    <!--<loggerName/>-->
+    <!--<pattern/>-->
+    <!--<threadName/>-->
+    <!--<message/>-->
+
+    <!--<arguments/> &lt;!&ndash;or through StructuredArguments&ndash;&gt;-->
+
+    <!--<stackTrace>-->
+    <!--<fieldName>stackTrace</fieldName>-->
+    <!--<throwableConverter class="net.logstash.logback.stacktrace.ShortenedThrowableConverter">-->
+    <!--&lt;!&ndash;<exclude>net\.sf\.cglib\..*</exclude>&ndash;&gt;-->
+    <!--<maxDepthPerThrowable>30</maxDepthPerThrowable>-->
+    <!--<rootCauseFirst>true</rootCauseFirst>-->
+    <!--</throwableConverter>-->
+    <!--</stackTrace>-->
+    <!--</providers>-->
+    <!--</encoder>-->
+    <!--</appender>-->
+
+    <!--<logger name="net.quiz" level="debug">-->
+    <!--<appender-ref ref="STDOUT"/>-->
+    <!--</logger>-->
+    <!--</springProfile>-->
+</configuration>
