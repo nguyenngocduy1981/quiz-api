@@ -1,5 +1,6 @@
 package net.quiz.controller;
 
+import net.quiz.exception.SystemException;
 import net.quiz.payload.dto.NewCategoryRequest;
 import net.quiz.service.CategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,7 +25,8 @@ public class CategoryController extends BaseController {
 
   @GetMapping("/{id}")
   public ResponseEntity<Object> findChildren(@PathVariable int id) {
-    return ok(categoryService.findChildren(id));
+//    return ok(categoryService.findChildren(id));
+    throw new SystemException("Not support any more");
   }
 
   @GetMapping("/child/{id}")

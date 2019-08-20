@@ -51,12 +51,12 @@ public class CategoryService {
 
   public CategoryDTO findById(int childId) {
     Category category = categoryRepository.findById(childId).orElseThrow(() -> new BadRequestException("Child category not found: " + childId));
-    CategoryDTO child = CategoryConverter.toDTO(category);
     Integer parent = category.getParent();
     if (parent == null) {
       throw new BadRequestException("Cannot get child category without parent ID");
     }
 
+    CategoryDTO child = CategoryConverter.toDTO(category);
     Category parentCat = categoryRepository.findById(parent).orElseThrow(() -> new BadRequestException("Parent category not found: " + parent));
     child.setParent(CategoryConverter.toDTO(parentCat));
 
@@ -66,7 +66,13 @@ public class CategoryService {
   public List<CategoryDTO> findByParentIsNull() {
     List<Category> list = categoryRepository.findByParentIsNull();
 
-    return this.toDto(list);
+    return list.stream()
+            .map(CategoryConverter::toDTO)
+            .map(c -> {
+              c.setChildren(this.findChildren(c.getId()));
+              return c;
+            })
+            .collect(Collectors.toList());
   }
 
   private List<CategoryDTO> toDto(List<Category> list) {

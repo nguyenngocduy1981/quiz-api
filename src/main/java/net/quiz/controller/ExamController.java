@@ -49,20 +49,20 @@ public class ExamController extends BaseController {
     return ok(questionService.generateExam(exam));
   }
 
-  @PostMapping("/upload")
-  public ResponseEntity<Object> generateExam(@RequestParam(value = "name") String name, @RequestParam("file") MultipartFile file) {
-    throw new SystemException("KHong support nua");
-//    try {
-//      name = name.toLowerCase().replace(".json", "");
-//      InputStream in = file.getInputStream();
-//      List<GetQuestionBySectionResponse> questions = mapper.readValue(in, List.class);
-//      questionService.saveExam(questions, name);
-//
-//      return ok("ok");
-//    } catch (Exception e) {
-//      throw new SystemException(e.getMessage());
-//    }
-  }
+//  @PostMapping("/upload")
+//  public ResponseEntity<Object> generateExam(@RequestParam(value = "name") String name, @RequestParam("file") MultipartFile file) {
+//    throw new SystemException("KHong support nua");
+////    try {
+////      name = name.toLowerCase().replace(".json", "");
+////      InputStream in = file.getInputStream();
+////      List<GetQuestionBySectionResponse> questions = mapper.readValue(in, List.class);
+////      questionService.saveExam(questions, name);
+////
+////      return ok("ok");
+////    } catch (Exception e) {
+////      throw new SystemException(e.getMessage());
+////    }
+//  }
 
   @PostMapping("/preview")
   public ResponseEntity<Object> previewExam(@RequestBody Map<Integer, List<Integer>> payload) {
