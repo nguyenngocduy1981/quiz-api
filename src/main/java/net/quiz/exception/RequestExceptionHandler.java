@@ -59,12 +59,12 @@ public class RequestExceptionHandler {
             fieldError.getField() + " khong nhap hoac gia tri khong dung");
   }
 
-  @ExceptionHandler({AuthenException.class})
-  public ResponseEntity<ErrorResponse> handleAuthenException(
-          AuthenException ex) {
-    ErrorResponse res = new ErrorResponse(ex.getError());
-    return new ResponseEntity<>(res, HttpStatus.OK);
-  }
+//  @ExceptionHandler({AuthenException.class})
+//  public ResponseEntity<ErrorResponse> handleAuthenException(
+//          AuthenException ex) {
+//    ErrorResponse res = new ErrorResponse(ex.getError());
+//    return new ResponseEntity<>(res, HttpStatus.OK);
+//  }
 
   @ExceptionHandler({BadRequestException.class})
   public ResponseEntity<ErrorResponse> handleBadRequestException(

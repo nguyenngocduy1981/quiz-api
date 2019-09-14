@@ -9,6 +9,10 @@ spring:
     url: jdbc:mysql://localhost:3306/quiz_db?useUnicode=yes&characterEncoding=UTF-8
     username: root
     password: root
+
+  #    url: jdbc:mysql://remotemysql.com:3306/lRmTdMgnNi?useUnicode=yes&characterEncoding=UTF-8
+  #      username: lRmTdMgnNi
+  #      password: LlRrC3pGqr
   jpa:
     show-sql: true
     hibernate:
@@ -22,4 +26,3 @@ spring:
 server:
   servlet:
     context-path: /api
-

@@ -14,7 +14,6 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/v1/sections")
-//@Instrumentation.Timer("process sections")
 public class SectionController extends BaseController {
 
   @Autowired
@@ -50,7 +49,6 @@ public class SectionController extends BaseController {
 
   @PostMapping("/check")
   public ResponseEntity<Object> checkExisted(@RequestBody @Valid SectionDTO dto) {
-    System.out.println("HHHH: " + dto.getText());
     return ok(sectionService.checkExisted(dto));
   }
 
