@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: {{JDBC_URL}}
+    username: {{JDBC_USERNAME}}
+    password: {{JDBC_PASSWORD}}
+  jpa:
+    show-sql: true
+    hibernate:
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+

@@ -1,0 +1,54 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+
+    <changeSet id="create_tables" author="duynn" context="auto">
+        <sqlFile encoding="utf8" endDelimiter=";"
+                 path="changelog/sql/create table.sql"/>
+    </changeSet>
+    <changeSet id="set_utf8" author="duynn" context="auto">
+        <sqlFile encoding="utf8" endDelimiter=";"
+                 path="changelog/sql/set_utf8.sql"/>
+    </changeSet>
+
+    <changeSet id="insert_T_CATEGORY" author="duynn" context="auto">
+        <sqlFile encoding="utf8" endDelimiter=";"
+                 path="changelog/sql/quiz_db_T_CATEGORY.sql"/>
+    </changeSet>
+    <changeSet id="insert_quiz_db_T_SECTION" author="duynn" context="auto">
+        <sqlFile encoding="utf8" endDelimiter=";"
+                 path="changelog/sql/quiz_db_T_SECTION.sql"/>
+    </changeSet>
+    <changeSet id="insert_quiz_db_T_PASSAGE" author="duynn" context="auto">
+        <sqlFile encoding="utf8" endDelimiter=";"
+                 path="changelog/sql/quiz_db_T_PASSAGE.sql"/>
+    </changeSet>
+    <changeSet id="insert_quiz_db_T_OPTIONS_FOR_PASSAGE" author="duynn" context="auto">
+        <sqlFile encoding="utf8" endDelimiter=";"
+                 path="changelog/sql/quiz_db_T_OPTIONS_FOR_PASSAGE.sql"/>
+    </changeSet>
+    <changeSet id="insert_quiz_db_T_QUESTION" author="duynn" context="auto">
+        <sqlFile encoding="utf8" endDelimiter=";"
+                 path="changelog/sql/quiz_db_T_QUESTION.sql"/>
+    </changeSet>
+    <changeSet id="insert_quiz_db_T_PASSAGE_QUESTION" author="duynn" context="auto">
+        <sqlFile encoding="utf8" endDelimiter=";"
+                 path="changelog/sql/quiz_db_T_PASSAGE_QUESTION.sql"/>
+    </changeSet>
+    <changeSet id="insert_quiz_db_T_POSSIBLE_ANSWER" author="duynn" context="auto">
+        <sqlFile encoding="utf8" endDelimiter=";"
+                 path="changelog/sql/quiz_db_T_POSSIBLE_ANSWER.sql"/>
+    </changeSet>
+    <changeSet id="insert_T_ANSWER" author="duynn" context="auto">
+        <sqlFile encoding="utf8" endDelimiter=";"
+                 path="changelog/sql/quiz_db_T_ANSWER.sql"/>
+    </changeSet>
+    <changeSet id="insert_T_EXAM" author="duynn" context="auto">
+        <sqlFile encoding="utf8" endDelimiter=";"
+                 path="changelog/sql/quiz_db_T_EXAM.sql"/>
+    </changeSet>
+
+</databaseChangeLog>
+

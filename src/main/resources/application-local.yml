@@ -6,14 +6,15 @@ spring:
       max-file-size: 200MB
       max-request-size: 215MB
   datasource:
-    url: jdbc:mysql://10.120.108.216:3306/mydb?useUnicode=yes&characterEncoding=UTF-8
+    url: jdbc:mysql://localhost:3306/quiz_db?useUnicode=yes&characterEncoding=UTF-8
     username: root
-    password:
+    password: root
+
+  #    url: jdbc:mysql://remotemysql.com:3306/lRmTdMgnNi?useUnicode=yes&characterEncoding=UTF-8
+  #      username: lRmTdMgnNi
+  #      password: LlRrC3pGqr
   jpa:
     show-sql: true
     hibernate:
       naming:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
-server:
-  servlet:
-    context-path: /api

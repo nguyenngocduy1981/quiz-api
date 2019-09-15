@@ -5,5 +5,19 @@ services:
     ports:
       - 8080:8080
     build: .
+    depends_on:
+      - mysql
     environment:
-      ENV: old
+      ENV: prod
+      JDBC_URL: jdbc:mysql://mysql/quiz_db?useUnicode=true&characterEncoding=utf-8
+      JDBC_USERNAME: root
+      JDBC_PASSWORD: abce432432
+  mysql:
+    hostname: mysql.local
+    container_name: quiz-mysql
+    build: docker/mysql
+    environment:
+      MYSQL_DATABASE: "quiz_db"
+      MYSQL_ROOT_PASSWORD: "abce432432"
+    ports:
+      - 43306:3306
