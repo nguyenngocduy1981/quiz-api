@@ -1,6 +1,7 @@
-spring:
+server:
   servlet:
     context-path: /api
+spring:
     multipart:
       enabled: true
       file-size-threshold: 2KB

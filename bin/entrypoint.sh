@@ -1,11 +1,5 @@
 #!/bin/sh
 
-jdbc_url="$(echo "$JDBC_URL" | sed -e 's/\//\\\//g')"
-
-sed -i  -e  "s/{{JDBC_URL}}/$jdbc_url/g" \
-        -e  "s/{{JDBC_USERNAME}}/$JDBC_USERNAME/g" \
-        -e  "s/{{JDBC_PASSWORD}}/$JDBC_PASSWORD/g" conf/application-$ENV.yml
-
 cat conf/application-$ENV.yml
 
 java -Xdebug -Xrunjdwp:server=y,transport=dt_socket,suspend=n \
