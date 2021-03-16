@@ -11,6 +11,10 @@ public class Application {
   public static void main(String[] args) {
 System.out.println("1111A");
 System.out.println("2222B");
+System.out.println("a");
+System.out.println("b");
+System.out.println("c");
+System.out.println("d");
     SpringApplication.run(Application.class, args);
   }
 
