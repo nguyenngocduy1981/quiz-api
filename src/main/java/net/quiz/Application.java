@@ -17,6 +17,7 @@ System.out.println("c");
 System.out.println("d");
 System.out.println("a1");
 System.out.println("a2");
+System.out.println("a3");
     SpringApplication.run(Application.class, args);
   }
 
