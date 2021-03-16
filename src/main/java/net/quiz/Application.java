@@ -19,6 +19,10 @@ System.out.println("a1");
 System.out.println("a2");
 System.out.println("a3");
 System.out.println("a4");
+System.out.println("B1");
+System.out.println("B2");
+System.out.println("B3");
+System.out.println("B4");
     SpringApplication.run(Application.class, args);
   }
 
