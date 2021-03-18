@@ -21,3 +21,4 @@ T_EXAM update column questions = TEXT instead of JSON. --> If JSON, utf-8 is una
 alter table T_EXAM
 	add token boolean default false null;
 
+lalal
